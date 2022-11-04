@@ -12,7 +12,6 @@ export function onButtonClick(event) {
   //   console.log(currentActiveBtn);
   if (currentActiveBtn) {
     currentActiveBtn.classList.remove('is-active');
-    //  console.log('remove class is-active');
   }
   // додає клас на кнопку на яку клікнули
   event.target.classList.add('is-active');
