@@ -7,7 +7,7 @@ export function onButtonClick(event) {
   if (event.target.nodeName !== 'BUTTON') {
     return;
   }
-  //   console.log(event.target);
+
   const currentActiveBtn = refs.libraryListButtons.querySelector('.is-active');
   //   console.log(currentActiveBtn);
   if (currentActiveBtn) {
