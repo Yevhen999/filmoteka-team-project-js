@@ -15,5 +15,4 @@ export function onButtonClick(event) {
   }
   // додає клас на кнопку на яку клікнули
   event.target.classList.add('is-active');
-  // console.log('add class is-active');
 }
