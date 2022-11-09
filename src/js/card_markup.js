@@ -15,12 +15,6 @@ export function createCardMarkup(data) {
     date = release_date.slice(0, 4);
   }
 
-  // let imageUrl = `https://image.tmdb.org/t/p/w500/${poster_path}`;
-  // if (poster_path === null) {
-  //   imageUrl =
-  //     'https://www.bworldonline.com/wp-content/uploads/2022/04/cinema02_14-01.jpg';
-  // }
-
   let cardGenres;
   if (!genre_ids) {
     cardGenres = 'No information';
